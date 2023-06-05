@@ -1,0 +1,67 @@
+.background{
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Noto Serif TC', serif;
+}
+
+.container{
+    margin: 0 auto;
+    margin-top: 6%;
+    width: 475px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.poem_text{
+   writing-mode: vertical-rl;
+   letter-spacing: 4px;
+   padding-right: 28px;
+   background: url(../images/poem.png) right top no-repeat;
+   background-size: auto;
+   border: 4px solid green;
+}
+
+.poem_text h1{
+    margin: 0 auto;
+    padding-top: 30px ;
+    border-left: solid 2px green;
+    border-right: solid 2px green;
+    font-family: 'Noto Serif TC', serif;
+}
+
+.poem_text .line{
+    line-height: 100%;
+    margin: 0 auto;
+    padding: 70px 0px;
+    border-left: solid 2px green;
+    font-family: 'Noto Serif TC', serif;
+}
+
+.fade-in-text01 {
+    font-size: 40px;
+    animation: fadeIn 2s;
+}
+.fade-in-text02 {
+    font-size: 40px;
+    animation: fadeIn 2s;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+}
+.fade-in-text03 {
+    font-size: 40px;
+    animation: fadeIn 2s;
+    animation-delay: 4s;
+    animation-fill-mode: both;
+}
+.fade-in-text04 {
+    font-size: 40px;
+    animation: fadeIn 2s;
+    animation-delay: 6s;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeIn{
+    0%  {opacity: 0;}
+    100% {opacity: 1;}
+}
